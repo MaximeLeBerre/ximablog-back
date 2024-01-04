@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_paragraph_paragraphs",
+  "info": {
+    "displayName": "paragraph",
+    "icon": "feather"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "text"
+    }
+  }
+}

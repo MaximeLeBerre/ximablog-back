@@ -378,6 +378,7 @@ export interface ApiArticleArticle extends Schema.CollectionType {
       Attribute.Required &
       Attribute.DefaultTo<'New article'>;
     introduction: Attribute.Text;
+    content: Attribute.DynamicZone<['paragraph.paragraph']>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

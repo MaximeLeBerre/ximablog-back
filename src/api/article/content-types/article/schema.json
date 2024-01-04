@@ -19,6 +19,12 @@
     },
     "introduction": {
       "type": "text"
+    },
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "paragraph.paragraph"
+      ]
     }
   }
 }
